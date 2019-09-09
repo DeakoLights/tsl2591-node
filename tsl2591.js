@@ -29,7 +29,7 @@ SOFTWARE.
 // http://adafru.it/1980
 //
 //
-var i2c = require('i2c');
+var i2c = require('@abandonware/i2c');
 
 // legend: _R = read only,  _RW = read/write
 var TSL2591_ADDR	= 0x29;
